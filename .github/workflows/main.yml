@@ -36,8 +36,8 @@ jobs:
           file: \src\Dockerfile
           push: true
           tags: |
-            crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:${{github.run_number}}
-            crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:latest
+            crclemente\unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:${{github.run_number}}
+            crclemente\unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:latest
 #  CD:
 #    runs-on: ubuntu-latest
 #    needs: [CI]

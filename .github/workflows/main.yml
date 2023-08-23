@@ -22,8 +22,8 @@ jobs:
       - name: Construção da imagem Docker
         uses: docker/build-push-action@v3.2.0
         with: 
-          context: ./src
-          file: ./src/Dockerfile
+          context: src
+          file: \src\Dockerfile
           push: true
           tags: |
             crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_Carlos:${{github.run_number}}

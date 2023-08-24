@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_Carlos
+          image: crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos
           ports:
           - containerPort: 8080
           env:

@@ -32,7 +32,7 @@ jobs:
 #       uses: docker/build-push-action@v3.2.0
         with: 
           context: src
-          file: \src\Dockerfile
+          file: /src/Dockerfile
           push: true
           tags: |
             crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:${{github.run_number}}

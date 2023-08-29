@@ -35,12 +35,12 @@ jobs:
           tags: |
             crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:${{github.run_number}}
             crclemente/unyleya_devopsnapratica_ci_cd_unid4_atv4_carlos:latest
-  CD:
-    runs-on: windows-latest
-    needs: [CI]
-    steps: 
-      - uses: actions/checkout@v3.1.0      
-      - name: Definindo o context
+#  CD:
+#    runs-on: windows-latest
+#    needs: [CI]
+#    steps: 
+#      - uses: actions/checkout@v3.1.0      
+#      - name: Definindo o context
 #        uses: Azure/k8s-set-context@v3.0
 #        with:
 #          method: kubeconfig
